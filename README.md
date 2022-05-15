@@ -5,7 +5,7 @@ Installing
 
 ### Creating USB Boot Media:
 ```
-Download the arch-XXX-dual.iso image from https://archlinux.org/download/
+Download the archlinux-xxxx.xx.xx-x86_64.iso  image from https://archlinux.org/download/
 
 Use Rufus | Etcher | etc.
 ```
