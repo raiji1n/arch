@@ -115,7 +115,7 @@ initramfs
 ```
 Add a regular user account that we will use in our day-to-day activities:
 ```
-> useradd -m -G wheel,,users,lp /bin/bash <username>
+> useradd -m -G wheel,users,lp /bin/bash <username>
 > passwd <username>
 > nano /etc/sudoers
 uncomment -- %wheel ALL=(ALL) ALL
