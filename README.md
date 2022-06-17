@@ -53,7 +53,7 @@ Write -> yes -> Quit
 
 Next, we need to format the partitions created in the previous step. I assume that you block device is /dev/sda and that the partitions were created as above.
 ```
-> mkfs.btrfs /dev/<sda> (EFI system)
+> mkfs.vfat /dev/<sda> (EFI system)
 > mkfs.btrfs /dev/<sda> (Linux filesystem)
 ```
 ## Mount the Partitions
