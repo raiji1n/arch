@@ -41,6 +41,8 @@ We will use the following partition layout using the parted and gdisk/fdisk comm
 ```
 > fdisk -l
 > fdisk /dev/<sda> (choose your name disk)
+>> g
+>> w
 > cfdisk /dev/sda
 New --> 300M -> Type: BIOS Boot
 New --> 300M-500M -> Type: EFI system
