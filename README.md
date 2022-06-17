@@ -58,9 +58,9 @@ Next, we need to format the partitions created in the previous step. I assume th
 ```
 ## Mount the Partitions
 ```
-> mount /dev/sda4 /mnt
+> mount /dev/sda3 (linux system) /mnt
 > mkdir /mnt/boot
-> mount /dev/sda2 /mnt/boot
+> mount /dev/sda2 (EFI system) /mnt/boot
 ```
 
 ## Install System Files
