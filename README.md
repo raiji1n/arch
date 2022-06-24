@@ -134,5 +134,3 @@ Boot the new OS
 > umount -R /mnt
 > reboot
 ```
-
-
